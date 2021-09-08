@@ -1,0 +1,78 @@
+
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(40deg, rgba(249,201,68,1) 0%, rgba(241,254,110,1) 100%);
+}
+
+.table *{
+  font-size: 14px;
+  text-align: left;
+}
+.table th{
+  border-bottom: 0;
+}
+
+.table td{
+  border-bottom-width: 0px !important;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.e-calendar, .e-bigger.e-small .e-calendar {
+  max-width: 300px;
+  background-color: #fff9;
+}
+
+.e-calendar .e-footer-container, .e-bigger.e-small .e-calendar .e-footer-container {
+  background-color: #fff9;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: transparent !important; 
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+textarea.form-control {
+  width: 140px !important;
+}
